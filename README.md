@@ -1,4 +1,4 @@
-```cpp
+
 # Kernel-Toolkit
 
 A powerful and flexible framework for implementing Windows kernel exploits.
@@ -101,7 +101,7 @@ Kernel::Struct& eprocessStruct = context.FetchModuleStruct(HashString_("ntoskrnl
 
 ## Security Notice
 
-⚠️ **WARNING**: This toolkit is designed for security research and educational purposes only. Misuse of this software to exploit vulnerabilities in systems without proper authorization is illegal and unethical. Always obtain proper permissions before testing any exploitation techniques.
+:warning: **WARNING**: This toolkit is designed for security research and educational purposes only. Misuse of this software to exploit vulnerabilities in systems without proper authorization is illegal and unethical. Always obtain proper permissions before testing any exploitation techniques.
 
 ## Requirements
 
@@ -114,4 +114,3 @@ Kernel::Struct& eprocessStruct = context.FetchModuleStruct(HashString_("ntoskrnl
 ## Disclaimer
 
 This project is provided for educational and research purposes only. The authors are not responsible for any misuse of this software or for any damage it may cause. Use at your own risk.
-```
